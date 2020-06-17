@@ -8,6 +8,7 @@ import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import { LayoutProvider } from "./context/LayoutContext";
 import { UserProvider } from "./context/UserContext";
+import Staffskill from "./pages/staffskill/Staffskill"
 
 ReactDOM.render(
   <LayoutProvider>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <ThemeProvider theme={Themes.default}>
         <CssBaseline />
         <App />
+        
       </ThemeProvider>
     </UserProvider>
   </LayoutProvider>,
